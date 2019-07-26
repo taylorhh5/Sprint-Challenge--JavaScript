@@ -36,7 +36,7 @@ The biggest difference between for Each and map is that map returns a new array 
 2. What is the difference between a function and a method?
 
  A function and a method are both functions, but a method is a function that is a property of an object.
-What is closure?
+
 
 3. What is closure?
  It lets you have access to outer functions from an inner function.
