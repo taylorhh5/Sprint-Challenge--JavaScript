@@ -2,17 +2,17 @@
 
 class CubeMaker {
     constructor (attributes) {
-      this.le = attributes.le,
-      this.wi = attributes.wi,
-      this.he = attributes.he
+      this.length = attributes.length,
+      this.width = attributes.width,
+      this.height = attributes.height
     }
     
       volume() {
-        return (this.le * this.wi * this.he)
+        return (this.length * this.width * this.height)
       }
     
       surfaceArea() {
-        return 2* (this.le * this.wi + this.le * this.he + this.wi * this.he)
+        return 2* (this.length * this.width + this.length * this.height + this.width * this.height)
       }
     
     }
